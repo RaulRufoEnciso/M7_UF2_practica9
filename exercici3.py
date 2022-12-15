@@ -5,12 +5,12 @@ def generaRandom(x, y, z):
     aRandomDiez = np.random.randint(low=x, high=y, size=z)
     return aRandomDiez
 
-def valorMaximo(x, y, z):
-    aRandomDiez = np.random.randint(low=x, high=y, size=z)
+def valorMaximo(a, b, c):
+    aRandomDiez = np.random.randint(low=a, high=b, size=c)
     return np.amax(aRandomDiez)
 
-def valorMinimo(x, y, z):
-    aRandomDiez = np.random.randint(low=x, high=y, size=z)
+def valorMinimo(d, e, f):
+    aRandomDiez = np.random.randint(low=d, high=e, size=f)
     return np.amin(aRandomDiez)
 
 
